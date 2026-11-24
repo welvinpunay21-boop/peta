@@ -1,0 +1,138 @@
+body { 
+    min-height: 100vh;
+    background: linear-gradient(135deg, #10152e, #1e9984, #d986ff);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ffcc;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color:#cccccc;
+
+}
+button {
+    background-color: #bebebe;
+    color:#df8108;
+    border: 2px solid #ff7300;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 280px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button-hover {
+    background-color: #00ffcc;
+    color: #121212;
+
+}
+#items {
+    background-color: #1e1e2e;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 50px;
+    margin: 15px;
+    color: #e0e0e0;
+
+}
+
+#total { 
+    color:#ffffff;
+}
+ #discount {
+    color: #ff66b2;
+ 
+ }
+ #final { 
+    color: #00ffcc;
+ }
+ #message {
+    color: #ffcc00;
+    font-weight: bold;
+    font-size: 18px;
+
+ }
+
+ p {
+    margin: 15px 0;
+
+ }
+
+ header {
+     position: sticky;
+     top: 12px;
+     z-index: 1000;
+     margin: 12px auto;
+     width: 94%;
+     padding: 18px;
+     text-align: center;
+     border-radius: 30px;
+     background-color: blur(15px);
+     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+
+}
+
+.bubble-header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.bubble-header p {
+    font-size: 16px;
+    opacity: 0.80;
+    font-weight: bold;
+
+}
+
+@media (max-width: 900px) {
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    .video-section {
+        padding: 15px;
+    }
+}
+
+p{
+    color: #a9df08;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
